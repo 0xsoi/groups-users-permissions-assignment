@@ -1,0 +1,31 @@
+BASH EXPRESSIONS
+
+$a -lt $b # Means a is less than b
+
+$a -gt $b # Means a is greater than b
+
+$a -le $b # Means a is less than or equal to b
+
+$a -ge $b # Means a is greater than or equal to b
+
+$a -eq $b # Means a is equal to b 
+
+$a -ne $b # Means a is not equal to b 
+
+[[ -z ${string} ]] # True if the length of the string is equal to zero
+
+[[ -n ${string} ]] # True if the length of the string is non-zero
+
+[[ -w ${file} ]] # True if the file is writeable
+
+[[ -f ${file} ]] # True if the file exists and is a regular file
+
+[[ -h ${file} ]] # True if the file exists and is a symbolic link
+
+[[ -a ${file} ]] # True if the file exists
+
+[[ -b ${file} ]] # True if the file is a block special file
+
+[[ -d ${file} ]] # True if the file is a directory
+
+[[ -c ${file} ]] # True if the file is a character special file
